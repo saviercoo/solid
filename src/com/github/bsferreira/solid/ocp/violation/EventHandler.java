@@ -21,6 +21,10 @@ public class EventHandler {
                 vehicle.setPower(400);
                 vehicle.setSuspensionHeight(20);
                 break;
+            case ECONOMY:
+                vehicle.setPower(300);
+                vehicle.setSuspensionHeight(30);
+                break;
             default:
                 vehicle.setPower(400);
                 vehicle.setSuspensionHeight(20);
